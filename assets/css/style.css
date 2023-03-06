@@ -8,6 +8,17 @@ body {
     flex-direction: column;
 }
 
+nav {
+    background-color: #D1D1D1;
+    color: #043059;
+}
+
+nav a {
+    color: #043059;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
 #welcome {
     background-color: #10487d;
     height: 50%;
@@ -15,6 +26,8 @@ body {
 
 #welcome h1 {
     color: #EECCCC;
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 #welcome-content {
@@ -25,9 +38,16 @@ body {
     height: 100%;
 }
 
+.btn-block {
+    color: #10487d;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
 #home-content {
     background-color: #9bcd95;
-    color: #fff;
+    color: #648DE5;
+    font-size: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,4 +61,5 @@ body {
 
 footer {
     flex-shrink: 0;
+    background-color: #D1D1D1;
 }
