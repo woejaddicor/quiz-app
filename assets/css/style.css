@@ -20,7 +20,6 @@ nav a {
 }
 
 #welcome {
-    background-color: #10487d;
     height: 50%;
 }
 
@@ -55,8 +54,43 @@ nav a {
     height: 30%;
 }
 
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4rem;
+    color: #EECCCC;
+}
+
+#badges {
+    background-color: #9bcd95;
+    color: #648DE5;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.badges {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #10487d;
+    padding-top: 10px;
+    margin: 10px;
+    color: #EECCCC;
+}
+
+.badges img {
+    width: 10rem;
+    height: 10rem;
+}
+
 .content {
     flex: 1 0 auto;
+    background-color: #10487d;
 }
 
 footer {
