@@ -8,6 +8,33 @@ body {
     flex-direction: column;
 }
 
+#welcome {
+    background-color: #10487d;
+    height: 50%;
+}
+
+#welcome h1 {
+    color: #EECCCC;
+}
+
+#welcome-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#home-content {
+    background-color: #9bcd95;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
 .content {
     flex: 1 0 auto;
 }
