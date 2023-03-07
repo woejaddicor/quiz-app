@@ -1,40 +1,40 @@
 html,
 body {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 nav {
-    background-color: #D1D1D1;
-    color: #043059;
+  background-color: #d1d1d1;
+  color: #043059;
 }
 
 nav a {
-    color: #043059;
-    font-size: 1.5rem;
-    text-decoration: none;
+  color: #043059;
+  font-size: 1.5rem;
+  text-decoration: none;
 }
 
 #welcome {
-    height: 50%;
+  height: 50%;
 }
 
 #welcome h1 {
-    color: #EECCCC;
-    font-size: 4rem;
-    text-shadow: 2px 2px 2px #000000;
+  color: #eecccc;
+  font-size: 4rem;
+  text-shadow: 2px 2px 2px #000000;
 }
 
 #welcome-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .btn-block {
@@ -45,111 +45,142 @@ nav a {
 }
 
 #home-content {
-    background-color: #9bcd95;
-    color: #648DE5;
-    font-size: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 30%;
+  background-color: #9bcd95;
+  color: #648de5;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
 }
 
 #header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 4rem;
-    color: #EECCCC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 4rem;
+  color: #eecccc;
 }
 
 #badges {
-    background-color: #9bcd95;
-    color: #648DE5;
-    font-size: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: #9bcd95;
+  color: #648de5;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .badges {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #10487d;
-    padding-top: 10px;
-    margin: 10px;
-    color: #EECCCC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #10487d;
+  padding-top: 10px;
+  margin: 10px;
+  color: #eecccc;
 }
 
 .badges img {
-    width: 10rem;
-    height: 10rem;
+  width: 10rem;
+  height: 10rem;
 }
 
 .content {
-    flex: 1 0 auto;
-    background-color: #10487d;
+  flex: 1 0 auto;
+  background-color: #10487d;
 }
-
 
 /* Quiz Styling */
 
 #quiz-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #quiz-title {
-    color: #EECCCC;
-    font-size: 3rem;
-    margin-top: 20px;
+  color: #eecccc;
+  font-size: 3rem;
+  margin-top: 20px;
 }
 
 #counter {
-    color: #EECCCC;
-    font-size: 2rem;
-    margin-top: 20px;
+  color: #eecccc;
+  font-size: 2rem;
+  margin-top: 20px;
 }
 
 #question {
-    display: flex;
-    font-size: 5rem;
-    color: #EECCCC;
-    margin-top: 20px;
+  display: flex;
+  font-size: 5rem;
+  color: #eecccc;
+  margin-top: 20px;
 }
 
 .answer {
-    display: flex;
-    font-size: 3rem;
+  display: flex;
+  font-size: 3rem;
 }
 
 .answer:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .letter {
-    color: #043059;
-    background-color: #9bcd95;
-    padding: 10px 30px;
+  color: #043059;
+  background-color: #9bcd95;
+  padding: 10px 30px;
 }
 
 .option-text {
-    color: #043059;
-    background-color: rgb(226, 226, 226);
-    padding: 15px;
-    width: 100%;
+  color: #043059;
+  background-color: rgb(226, 226, 226);
+  padding: 15px;
+  width: 100%;
 }
 
 .option-text:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 footer {
-    flex-shrink: 0;
-    background-color: #D1D1D1;
+  flex-shrink: 0;
+  background-color: #d1d1d1;
+}
+
+/* Revision Styling */
+
+.header-revision {
+  color: #eecccc;
+  background-color: #10487d;
+  padding: 2rem;
+}
+
+#revisions {
+  background-color: #9bcd95;
+  color: #648de5;
+  font-size: 1rem;
+}
+
+.revision {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  margin: 10px;
+  color: #eecccc;
+  background-color: #10487d;
+  width: 20%;
+}
+
+img {
+  width: 25%;
+  flex-shrink: 0;
+  background-color: #D1D1D1;
 }
