@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-    background-color: #D1D1D1;
+    background-color: #d1d1d1;
     color: #043059;
 }
 
@@ -20,12 +20,11 @@ nav a {
 }
 
 #welcome {
-    background-color: #10487d;
     height: 50%;
 }
 
 #welcome h1 {
-    color: #EECCCC;
+    color: #eecccc;
     font-size: 4rem;
     text-shadow: 2px 2px 2px #000000;
 }
@@ -42,11 +41,12 @@ nav a {
     color: #10487d;
     margin-top: 30px;
     font-size: 2rem;
+    border-radius: 5px;
 }
 
 #home-content {
     background-color: #9bcd95;
-    color: #648DE5;
+    color: #648de5;
     font-size: 2rem;
     display: flex;
     flex-direction: column;
@@ -55,11 +55,142 @@ nav a {
     height: 30%;
 }
 
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4rem;
+    color: #eecccc;
+}
+
+#badges {
+    background-color: #9bcd95;
+    color: #648de5;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.badges {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #10487d;
+    border-radius: 50%;
+    padding-top: 10px;
+    margin: 10px;
+    color: #EECCCC;
+}
+
+.badges img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .content {
     flex: 1 0 auto;
+    background-color: #10487d;
+}
+
+
+/* Quiz Styling */
+
+#quiz-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#quiz-title {
+    color: #eecccc;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+#counter {
+    color: #eecccc;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+#question {
+    display: flex;
+    font-size: 5rem;
+    color: #eecccc;
+    margin-top: 20px;
+}
+
+.answer {
+    display: flex;
+    font-size: 3rem;
+}
+
+.answer:hover {
+    cursor: pointer;
+}
+
+.letter {
+    color: #043059;
+    background-color: #9bcd95;
+    padding: 10px 30px;
+}
+
+.option-text {
+    color: #043059;
+    background-color: rgb(226, 226, 226);
+    padding: 15px;
+    width: 100%;
+}
+
+.option-text:hover {
+    cursor: pointer;
 }
 
 footer {
+    flex-shrink: 0;
+    background-color: #d1d1d1;
+}
+
+
+/* Revision Styling */
+
+.header-revision {
+    color: #eecccc;
+    background-color: #10487d;
+    padding: 2rem;
+}
+
+#revisions {
+    background-color: #9bcd95;
+    color: #648de5;
+    font-size: 1rem;
+}
+
+.revision {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    margin: 10px;
+    color: #eecccc;
+    background-color: #10487d;
+    width: 20%;
+}
+
+.revision img {
+    width: 25%;
     flex-shrink: 0;
     background-color: #D1D1D1;
 }

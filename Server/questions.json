@@ -1,0 +1,333 @@
+[
+    {
+        "questions": [
+          {
+            "category": "History",
+            "question": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+            "correct_answer": "Silver",
+            "incorrect_answers": ["Gold", "Juno", "Sword"]
+          },
+          {
+            "category": "History",
+            "question": "Who discovered Penicillin?",
+            "correct_answer": "Alexander Flemming",
+            "incorrect_answers": ["Marie Curie", "Alfred Nobel", "Louis Pasteur"]
+          },
+          {
+            "category": "History",
+            "question": "In what year did the Wall Street Crash take place?",
+            "correct_answer": "1929",
+            "incorrect_answers": ["1932", "1930", "1925"]
+          },
+          {
+            "category": "History",
+            "question": "Which of the following African countries was most successful in resisting colonization?",
+            "correct_answer": "Ethiopia",
+            "incorrect_answers": ["C&ocirc;te d&rsquo;Ivoire", "Congo", "Namibia"]
+          },
+          {
+            "category": "History",
+            "question": "Which of the following ancient peoples was NOT classified as Hellenic (Greek)?",
+            "correct_answer": "Illyrians",
+            "incorrect_answers": ["Dorians", "Achaeans", "Ionians"]
+          },
+          {
+            "category": "History",
+            "question": "Which famous world leader is famed for the saying, &quot;Let them eat cake&quot;, yet is rumored that he/she never said it at all?",
+            "correct_answer": "Marie Antoinette",
+            "incorrect_answers": ["Czar Nicholas II", "Elizabeth I", "Henry VIII"]
+          },
+          {
+            "category": "History",
+            "question": "The collapse of the Soviet Union took place in which year?",
+            "correct_answer": "1991",
+            "incorrect_answers": ["1992", "1891", "1990"]
+          },
+          {
+            "category": "History",
+            "question": "How was Socrates executed?",
+            "correct_answer": "Poison",
+            "incorrect_answers": ["Decapitation", "Firing squad", "Crucifixion "]
+          },
+          {
+            "category": "History",
+            "question": "Who was among those killed in the 2010 Smolensk, Russia plane crash tragedy?",
+            "correct_answer": "The Polish President",
+            "incorrect_answers": ["Pope John Paul II", "Bang-Ding Ow", "Albert Putin"]
+          },
+          {
+            "category": "History",
+            "question": "What is the historical name of Sri Lanka?",
+            "correct_answer": "Ceylon",
+            "incorrect_answers": ["Myanmar", "Colombo", "Badulla"]
+          },
+          {
+            "category": "Art",
+            "question": "Painter Piet Mondrian (1872 - 1944) was a part of what movement?",
+            "correct_answer": "Neoplasticism",
+            "incorrect_answers": ["Precisionism", "Cubism", "Impressionism"]
+          },
+          {
+            "category": "Art",
+            "question": "Which time signature is commonly known as &ldquo;Cut Time?&rdquo;",
+            "correct_answer": "2/2",
+            "incorrect_answers": ["4/4", "6/8", "3/4"]
+          },
+          {
+            "category": "Art",
+            "question": "Which artist&rsquo;s studio was known as &#039;The Factory&#039;?",
+            "correct_answer": "Andy Warhol",
+            "incorrect_answers": ["Roy Lichtenstein", "David Hockney", "Peter Blake"]
+          },
+          {
+            "category": "Art",
+            "question": "What year did Albrecht D&uuml;rer create the painting &quot;The Young Hare&quot;?",
+            "correct_answer": "1502",
+            "incorrect_answers": ["1702", "1402", "1602"]
+          },
+          {
+            "category": "Art",
+            "question": "Which of these are the name of a famous marker brand?",
+            "correct_answer": "Copic",
+            "incorrect_answers": ["Dopix", "Cofix", "Marx"]
+          },
+          {
+            "category": "Art",
+            "question": "Which artist&#039;s style was to use small different colored dots to create a picture?",
+            "correct_answer": "Georges Seurat",
+            "incorrect_answers": [
+              "Paul C&eacute;zanne",
+              "Vincent Van Gogh",
+              "Henri Rousseau"
+            ]
+          },
+          {
+            "category": "Art",
+            "question": "Which of these is not an additional variation of the color purple?",
+            "correct_answer": "Kobicha",
+            "incorrect_answers": ["Byzantium", "Pomp and Power", "Palatinate"]
+          },
+          {
+            "category": "Art",
+            "question": "Who designed the Chupa Chups logo?",
+            "correct_answer": "Salvador Dali",
+            "incorrect_answers": ["Pablo Picasso", "Andy Warhol", "Vincent van Gogh"]
+          },
+          {
+            "category": "Art",
+            "question": "The painting &quot;The Starry Night&quot; by Vincent van Gogh was part of which art movement?",
+            "correct_answer": "Post-Impressionism",
+            "incorrect_answers": ["Romanticism", "Neoclassical", "Impressionism"]
+          },
+          {
+            "category": "Art",
+            "question": "Who painted the epic mural Guernica?",
+            "correct_answer": "Pablo Picasso",
+            "incorrect_answers": [
+              "Francisco Goya",
+              "Leonardo da Vinci",
+              "Henri Matisse"
+            ]
+          },
+          {
+            "category": "Geography",
+            "question": "The derisive acronym &quot;PIIGS&quot; refers to which of the following European countries and their economic statuses?",
+            "correct_answer": "Portugal, Ireland, Italy, Greece, Spain",
+            "incorrect_answers": [
+              "Poland, Iceland, Italy, Greece, Serbia",
+              "Poland, Iceland, Italy, Greenland, Spain",
+              "Portugal, Iceland, Ireland, Greece, Serbia"
+            ]
+          },
+          {
+            "category": "Geography",
+            "question": "What is the capital of Senegal?",
+            "correct_answer": "Dakar",
+            "incorrect_answers": ["Nouakchott", "Conakry", "Monrovia"]
+          },
+          {
+            "category": "Geography",
+            "question": "What is the most populous Muslim-majority nation in 2010?",
+            "correct_answer": "Indonesia",
+            "incorrect_answers": ["Saudi Arabia", "Iran", "Sudan"]
+          },
+          {
+            "category": "Geography",
+            "question": "What is the official German name of the Swiss Federal Railways?",
+            "correct_answer": "Schweizerische Bundesbahnen",
+            "incorrect_answers": [
+              "Schweizerische Nationalbahnen",
+              "Bundesbahnen der Schweiz",
+              "Schweizerische Staatsbahnen"
+            ]
+          },
+          {
+            "category": "Geography",
+            "question": "What is the capital of the US State of New York?",
+            "correct_answer": "Albany",
+            "incorrect_answers": ["Buffalo", "New York", "Rochester"]
+          },
+          {
+            "category": "English",
+            "question": "Identify the noun in the following sentence: The mailman Mr. Joe was carrying postcards.",
+            "correct_answer": "Mailman, Mr. Joe and postcards",
+            "incorrect_answers": ["Mailman", "Mr.Joe", "postcards"]
+          },
+          {
+            "category": "English",
+            "question": "Identify the pronoun in the following sentence: Everyone is sleeping in the dorm room ",
+            "correct_answer": "Everyone",
+            "incorrect_answers": ["Sleeping", "Dorm", "Room"]
+          },
+          {
+            "category": "English",
+            "question": "Identify the verb in the following sentence: She bought a new car and started taking her driving lessons.",
+            "correct_answer": "Bought, started, taking",
+            "incorrect_answers": ["Started", "New", "Driving"]
+          },
+          {
+            "category": "English",
+            "question": "Identify the Adverb in the following sentence: The dog looked at his owner curiously.",
+            "correct_answer": "Curiously",
+            "incorrect_answers": ["Dog", "Looked", "At"]
+          },
+          {
+            "category": "English",
+            "question": "Identify the adjective in the following sentence: Linda McKenzie has five children",
+            "correct_answer": "Five",
+            "incorrect_answers": ["Linda", "Has", "Children"]
+          },
+          {
+            "category": "English",
+            "question": "Identify present, past or future tense from the following sentence: It rained heavily. ",
+            "correct_answer": "Past",
+            "incorrect_answers": ["Present", "Present Perfect", "Future"]
+          },
+          {
+            "category": "English",
+            "question": "Identify the correct sentence.",
+            "correct_answer": "The weather is wet, windy and unpredictable.",
+            "incorrect_answers": [
+              "The weather is wet, and windy and unpredictable.",
+              "The weather is wet, windy, unpredictable.",
+              "The weather is wet windy, unpredictable."
+            ]
+          },
+          {
+            "category": "English",
+            "question": "Identify the correct sentence.",
+            "correct_answer": "Don’t worry. Every little thing is going to be alright.",
+            "incorrect_answers": [
+              "Dont worry, every little thing is going to be alright.",
+              "Don’t worry every little thing is going to be alright",
+              "Dont worry, every little thing is gonna be alright"
+            ]
+          },
+          {
+            "category": "English",
+            "question": "Identify the preposition in the following sentence: The kids are sitting around the block.",
+            "correct_answer": "Around",
+            "incorrect_answers": ["Are", "The", "Sitting"]
+          },
+          {
+            "category": "English",
+            "question": "Identify the synonym from the option given below: Nice",
+            "correct_answer": "Pleasant",
+            "incorrect_answers": ["Fortunate", "Cool", "Impartial"]
+          },
+          {
+            "category": "Citizenship",
+            "question": "Which one of the following is a legal responsibility?",
+            "correct_answer": "Making sure your children get an education if you are a parent.",
+            "incorrect_answers": [
+              "Locking your car after parking it if you are a motorist.",
+              "Making sure all your employees receive regular training if you are an employer.",
+              "Caring for your partner if they are ill."
+            ]
+          },
+          {
+            "category": "Citizenship",
+            "question": "Identify one characteristics for possible discrimination protected by the Equality Act. ",
+            "correct_answer": "Sexual Orientation",
+            "incorrect_answers": ["Wealth", "Property ownership", "Social Class"]
+          },
+          {
+            "category": "Citizenship",
+            "question": "Which reason best explains why the age of criminal responsibility is different in different countries?",
+            "correct_answer": "Governments hold different views about the age at which children understand the impact of their actions on others.",
+            "incorrect_answers": [
+              "Governments in Less Economically Developed Countries (LEDCs) sometimes don’t have courts suitable for trials of young people.",
+              "Some governments are signed up to the ‘United Nations Convention on the Rights of the Child’ but others are not.",
+              "Governments have different amounts of youth crime to deal with."
+            ]
+          },
+          {
+            "category": "Citizenship",
+            "question": "When would a democratic government usually restrict freedom of speech? ",
+            "correct_answer": "when individuals are at risk of significant damage",
+            "incorrect_answers": [
+              "when the government is criticised",
+              "when offence is caused",
+              "when jokes are made about politicians and religious leaders"
+            ]
+          },
+          {
+            "category": "Citizenship",
+            "question": "Which piece of evidence is the most useful in deciding whether a law is working?",
+            "correct_answer": "Rates of offending fall",
+            "incorrect_answers": [
+              "More people are caught.",
+              "Sentences are longer.",
+              "Judges say that the law is easy to understand."
+            ]
+          },
+          {
+            "category": "Citizenship",
+            "question": "Which reason best explains why a person accused of an offence would seek advice from a solicitor?",
+            "correct_answer": "Solicitors are independent of the police, government and local authorities ",
+            "incorrect_answers": [
+              "Solicitors provide free advice and only charge to represent people in court.",
+              "Solicitors can use their legal powers to settle disputes.",
+              "Solicitors can provide legal aid to help with costs."
+            ]
+          },
+          {
+            "category": "Citizenship",
+            "question": "Which responsibility is carried out by devolved governments in Scotland, Wales and Northern Ireland?",
+            "correct_answer": "Education",
+            "incorrect_answers": ["defence", "indirect taxation", "overseas aid"]
+          },
+          {
+            "category": "Citizenship",
+            "question": "Which reason best explains why a coalition government would be formed?",
+            "correct_answer": "no single political party gained an overall majority following an election",
+            "incorrect_answers": [
+              "one political party wants to form a government on its own but did not win a majority following an election",
+              "one political party gained a majority following an election and wants to form a government on its own",
+              "two political parties gain equal votes following an election and cannot agree who should form the government"
+            ]
+          },
+          {
+            "category": "Citizenship",
+            "question": "Which reason best explains why cabinet government is favoured in the United Kingdom (UK)?",
+            "correct_answer": "Ministers can make better decisions by discussing them with colleagues.",
+            "incorrect_answers": [
+              "Different interest groups can be represented by all the political parties in the cabinet.",
+              "Civil servants and politicians can have an equal say.",
+              "The devolved governments of Scotland, Wales and Northern Ireland can be properly represented."
+            ]
+          },
+          {
+            "category": "Citizenship",
+            "question": "What is Black Rod’s ceremonial role in Parliament?",
+            "correct_answer": "Calling MPs to attend the House of Lords",
+            "incorrect_answers": [
+              "protecting the monarch",
+              "escorting the prime minister",
+              "making sure MPs speak in the correct order"
+            ]
+          }
+        ]
+      }
+    ]
+    
