@@ -1,4 +1,3 @@
-let availableQuestions = [];
 let currentQuestion = {};
 let choices = Array.from(document.getElementsByClassName('option-text'));
 let questionCounter = 0;
@@ -14,10 +13,10 @@ const question = document.getElementById('question');
 async function displayQuestion(category) {
 	const response = await fetch(`http://localhost:3000/questions/${category}`);
 	const cat = await response.json();
-	// console.log(cat);
+	console.log(cat);
 	questionArea.classList.remove('hidden');
 
-	let questions = cat;
+	const questions = cat;
 	let currentQuestionIndex = Math.floor(Math.random() * cat.length);
 	currentQuestion = questions[currentQuestionIndex];
 	question.innerHTML = currentQuestion.question;
@@ -25,19 +24,12 @@ async function displayQuestion(category) {
 	choices.forEach((choice) => {
 		const number = choice.dataset.number;
 		choice.innerText = currentQuestion[number];
-		choice.addEventListener('click', (e) => {
-			console.log(e);
-			nextQuestion(questions, currentQuestionIndex);
-		});
 	});
-}
-
-function nextQuestion(questions, currentQuestionIndex) {
-	questionCounter++;
+	const nextQuestion = () => {
+		questionCounter++;
+	};
+	nextQuestion();
 	console.log(questionCounter);
-	// let newQuestion = questions.splice(currentQuestionIndex, 1);
-	// displayQuestion(newQuestion);
-	questions.splice(currentQuestionIndex, 1);
 }
 
 const categoryButton = document.getElementsByClassName('btn');
@@ -45,5 +37,5 @@ for (let i = 0; i < categoryButton.length; i++) {
 	categoryButton[i].addEventListener('click', getCategory);
 }
 
-// const startButton = document.getElementById('start-button');
-// startButton.addEventListener('click', displayQuestion);
+const startButton = document.getElementById('start-button');
+startButton.addEventListener('click', displayQuestion);
