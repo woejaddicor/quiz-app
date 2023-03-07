@@ -78,6 +78,7 @@ nav a {
     justify-content: center;
     align-items: center;
     background-color: #10487d;
+    border-radius: 50%;
     padding-top: 10px;
     margin: 10px;
     color: #EECCCC;
@@ -86,6 +87,13 @@ nav a {
 .badges img {
     width: 10rem;
     height: 10rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .content {
