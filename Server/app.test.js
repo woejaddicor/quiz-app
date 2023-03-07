@@ -1,49 +1,32 @@
-const { sendAllQuestions, oddEvenEmpty } = require('./functions');
+require('dotenv').config();
+const app = require('./app.js');
+const request = require('supertest');
 
-describe('findLargest', () => {
-	it('exists', () => {
-		expect(findLargestIndex).toBeDefined();
-	});
 
-	it('is a function', () => {
-		expect(findLargestIndex instanceof Function).toEqual(true);
-	});
-
-	it('returns a number', () => {
-		expect(typeof findLargestIndex() == 'number').toEqual(true);
-	});
-
-	it('should return index of largest number', () => {
-		expect(findLargestIndex([1, 1, 4, 1])).toEqual(2);
-	});
-
-	it('returns -1 if no values are passed in', () => {
-		expect(findLargestIndex([])).toEqual(-1);
-	});
+describe('GET /', () => {
+    it('should return a 200 response', async() => {
+        const response = await request(app).get('/');
+        expect(response.statusCode).toBe(200);
+    });
 });
 
-describe('oddEvenEmpty', () => {
-	it('exists', () => {
-		expect(oddEvenEmpty).toBeDefined();
-	});
+describe('GET /questions', () => {
+    it('should return a 200 response', async() => {
+        const response = await request(app).get('/questions');
+        expect(response.statusCode).toBe(200);
+    });
+});
 
-	it('is a function', () => {
-		expect(oddEvenEmpty instanceof Function).toEqual(true);
-	});
+describe('GET /questions/:category', () => {
+    it('should return a 200 response', async() => {
+        const response = await request(app).get('/questions/invalid');
+        expect(response.statusCode).toBe(200);
+    });
+});
 
-	it('should return odd for a single number array', () => {
-		expect(oddEvenEmpty([1])).toBe('odd');
-	});
-
-	it('should return null if no array is given', () => {
-		expect(oddEvenEmpty([])).toBe(null);
-	});
-
-	it('should return odd if odd length is provided', () => {
-		expect(oddEvenEmpty([0, 2, 3])).toBe('odd');
-	});
-
-	it('should return even if even length array is provided', () => {
-		expect(oddEvenEmpty([0, 2, 4, 6])).toBe('even');
-	});
+describe('PORT', () => {
+    it('should return a port number', async() => {
+        const port = process.env.PORT;
+        expect(port).not.toBe(undefined);
+    });
 });
