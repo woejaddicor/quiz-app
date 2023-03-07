@@ -38,9 +38,10 @@ nav a {
 }
 
 .btn-block {
-  color: #10487d;
-  margin-top: 30px;
-  font-size: 2rem;
+    color: #10487d;
+    margin-top: 30px;
+    font-size: 2rem;
+    border-radius: 5px;
 }
 
 #home-content {
@@ -180,4 +181,6 @@ footer {
 
 img {
   width: 25%;
+  flex-shrink: 0;
+  background-color: #D1D1D1;
 }
