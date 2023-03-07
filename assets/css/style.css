@@ -194,3 +194,7 @@ footer {
     flex-shrink: 0;
     background-color: #D1D1D1;
 }
+
+.hidden {
+    display: none;
+}
