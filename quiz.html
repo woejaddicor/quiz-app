@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <script src="./assets/js/quiz.js" defer></script>
-  </head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="./quiz.js" defer></script>
+</head>
+
 
   <body>
     <header>
@@ -32,31 +30,33 @@
       </div>
     </header>
     <section class="content" id="quiz-wrapper">
-      <h2 id="quiz-heading">
-        <span id="quiz-title">Quiz Title</span>
-      </h2>
-      <div>
-        <div id="question-area">
-          <div id="counter">
-            <p id="counter-text">1/10</p>
-          </div>
-          <span id="question">This is a question in the quiz</span>
-          <div class="answer">
-            <p class="letter">A</p>
-            <p class="option-text" id="answerA">Choice 1</p>
-          </div>
-          <div class="answer">
-            <p class="letter">B</p>
-            <p class="option-text" id="answerB">>Choice 2</p>
-          </div>
-          <div class="answer">
-            <p class="letter">C</p>
-            <p class="option-text" id="answerC">>Choice 3</p>
-          </div>
-          <div class="answer">
-            <p class="letter">D</p>
-            <p class="option-text" id="answerD">>Choice 4</p>
-          </div>
+
+        <h2 class="title"><span>Title goes here</span></h2>
+        <button id="start-button">Start Quiz</button>
+        <div>
+            <div id="question-area">
+                <div id="counter">
+                    <p id="counter-text">1/10</p>
+                </div>
+                <h2 id="question">This is a question in the quiz</h2>
+                <div class="answer">
+                    <p class="letter">A</p>
+                    <p class="option-text">Choice 1</p>
+                </div>
+                <div class="answer">
+                    <p class="letter">B</p>
+                    <p class="option-text">Choice 2</p>
+                </div>
+                <div class="answer">
+                    <p class="letter">C</p>
+                    <p class="option-text">Choice 3</p>
+                </div>
+                <div class="answer">
+                    <p class="letter">D</p>
+                    <p class="option-text">Choice 4</p>
+                </div>
+            </div>
+
         </div>
       </div>
     </section>
@@ -65,5 +65,5 @@
         <strong>This site was created for educational purposes only</strong>
       </p>
     </footer>
-  </body>
+</body>
 </html>
