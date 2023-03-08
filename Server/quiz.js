@@ -41,7 +41,6 @@ const nextQuestion = () => {
 	currentQuestion = availableQuestions[questionIndex];
 	question.innerText = currentQuestion.question;
 	tips.innerText = currentQuestion.tip;
-	console.log(currentQuestion);
 	choices.forEach((choice) => {
 		const number = choice.dataset['number'];
 		choice.innerText = currentQuestion[number];
@@ -69,8 +68,10 @@ choices.forEach((choice) => {
 	});
 });
 
-const saveTipToLocalStorage = (tips) => {
+const saveTipToLocalStorage = (tips, category) => {
+	console.log(tips, category);
 	let newTip = {
+		category: category,
 		tip: tips,
 	};
 	tipsArray.push(newTip);

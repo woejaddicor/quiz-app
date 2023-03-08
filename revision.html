@@ -9,6 +9,16 @@
     <script src="./revisionList.js" defer></script>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        @media (min-width: 760px) {
+            .parent {
+                display: flex;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -32,34 +42,35 @@
     <section class="header-revision">
         <h1>Revision</h1>
     </section>
-    <section id="revisions" class="content">
+    <section id="revisions" class="parent">
         <!-- Collection of images in the middle of the page -->
-
-        <div class="revision">
-            <img src="https://cdn-icons-png.flaticon.com/512/4405/4405444.png" alt="" class="" />
-            <p>Geography</p>
-        </div>
-        <div class="revision">
-            <img src="https://i.pinimg.com/originals/0a/22/0f/0a220f2efde13db24c911e3f6870ccba.png" alt="" class="" />
-            <p>History</p>
-        </div>
-        <div class="revision">
-            <img src="https://i.pinimg.com/originals/e8/63/7a/e8637a5b750d32dad7a3f7da273ee134.png" alt="" class="" />
-            <p>Art</p>
-        </div>
-        <div class="revision">
-            <img src="https://icon-library.com/images/subject-icon/subject-icon-5.jpg" alt="" class="" />
-            <p>English</p>
-        </div>
-        <div class="revision">
-            <img class="revision-img" src="https://cdn-icons-png.flaticon.com/512/3280/3280976.png" alt="" class="" />
-            <p>Citizenship</p>
-        </div>
-    </section>
-    <section class="revisionList">
-        <h2>Revision List</h2>
-        <ul><ul>
-    </section>
+        <section class="child">
+            <div class="revision">
+                <img src="https://cdn-icons-png.flaticon.com/512/4405/4405444.png" alt="" class="" />
+                <p>Geography</p>
+            </div>
+            <div class="revision">
+                <img src="https://i.pinimg.com/originals/0a/22/0f/0a220f2efde13db24c911e3f6870ccba.png" alt="" class="" />
+                <p>History</p>
+            </div>
+            <div class="revision">
+                <img src="https://i.pinimg.com/originals/e8/63/7a/e8637a5b750d32dad7a3f7da273ee134.png" alt="" class="" />
+                <p>Art</p>
+            </div>
+            <div class="revision">
+                <img src="https://icon-library.com/images/subject-icon/subject-icon-5.jpg" alt="" class="" />
+                <p>English</p>
+            </div>
+            <div class="revision">
+                <img class="revision-img" src="https://cdn-icons-png.flaticon.com/512/3280/3280976.png" alt="" class="" />
+                <p>Citizenship</p>
+            </div>
+        </section>
+        <section>
+            <h2>Revision List</h2>
+            <ul class="revisionList"><ul>
+            </section>
+        </section>
     <footer class="text-center">
         <p>
             <strong>This site was created for educational purposes only</strong>

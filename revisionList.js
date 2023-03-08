@@ -1,13 +1,16 @@
 const revisionList = document.querySelector('.revisionList');
 const tipsArray = JSON.parse(localStorage.getItem('tipsArray')) || [];
 
-tipsArray.map((list) => {
-	console.log(list.tip);
-	return `<li>${list.tip}</li>`;
-});
+let unique = tipsArray.filter(
+	(tip, index) =>
+		index === tipsArray.findIndex((other) => tip.tip === other.tip)
+);
 
-// highScores
-// 	.map((score) => {
-// 		return `<li class="high-score">${score.name} - ${score.score}</li>`;
-// 	})
-// 	.join('');
+revisionList.innerHTML = unique
+	.map((item) => {
+		return `
+        <div style="background-color: white; border-bottom: 1px solid blue; width: 80%">
+        <li>${item.tip}</li>
+        </div>`;
+	})
+	.join('');
