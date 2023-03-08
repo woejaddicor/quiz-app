@@ -105,35 +105,49 @@ nav a {
 
 /* Quiz Styling */
 
+.categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #9bcd95;
+    color: #648de5;
+    font-size: 2rem;
+}
+
 #quiz-wrapper {
+    padding-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 #quiz-title {
     color: #eecccc;
-    font-size: 3rem;
-    margin-top: 20px;
+    font-size: 2rem;
 }
 
 #counter {
     color: #eecccc;
     font-size: 2rem;
-    margin-top: 20px;
 }
 
 #question {
     display: flex;
-    font-size: 5rem;
+    font-size: 2rem;
     color: #eecccc;
+    margin-top: 20px;
+}
+
+#tip {
+    color: #eecccc;
+    font-size: 2rem;
     margin-top: 20px;
 }
 
 .answer {
     display: flex;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .answer:hover {
@@ -160,6 +174,16 @@ nav a {
 footer {
     flex-shrink: 0;
     background-color: #d1d1d1;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.incorrect {
+    background-color: red;
+    color: white;
 }
 
 
