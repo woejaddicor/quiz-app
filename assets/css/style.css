@@ -188,6 +188,27 @@ footer {
     color: white;
 }
 
+#error {
+    font-size: 2rem;
+    color: #ddf840;
+}
+
+.error-message {
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#home-button {
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 2rem;
+    background-color: #9bcd95;
+    color: #072c7c;
+}
+
 
 /* Revision Styling */
 
