@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
-    <script defer src="/Server/quiz.js"></script>
+    <script defer src="./Server/quiz.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
-<body>
+  <body>
     <header>
-        <div>
-            <nav>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="revision.html">Revision</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="badges.html">Badges</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+      <div>
+        <nav>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="revision.html">Revision</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="badges.html">Badges</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
+
     <section class="categories" id="category-wrapper">
         <span>Choose your category to study: </span>
         <a class="buttonCategory btn">English</a>
@@ -42,6 +42,7 @@
             <div id="question-area" class="hidden">
                 <div id="counter">
                     <p id="counter-text">1/10</p>
+                    <p id="score-text">0</p>
                 </div>
                 <h2 id="question">This is a question in the quiz</h2>
                 <div class="answer">
@@ -64,11 +65,14 @@
             <div id="tip-area">
                 <p id="tip" class="hidden">Here is a revision tip to explain the answer to the Question</p>
             </div>
+
         </div>
+      </div>
     </section>
     <footer class="text-center">
-        <p><strong>This site was created for educational purposes only</strong> </p>
+      <p>
+        <strong>This site was created for educational purposes only</strong>
+      </p>
     </footer>
 </body>
-
 </html>
