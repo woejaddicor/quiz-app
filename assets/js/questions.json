@@ -39,8 +39,6 @@
     {
       "category": "History",
       "question": "Which of the following ancient peoples was NOT classified as Hellenic (Greek)?",
-      "correct_answer": "Illyrians",
-      "incorrect_answers": ["Dorians", "Achaeans", "Ionians"],
       "1": "Dorians",
       "2": "Illyrians",
       "3": "Achaeans",
@@ -49,9 +47,7 @@
     },
     {
       "category": "History",
-      "question": "Which famous world leader is famed for the saying, &quot;Let them eat cake&quot;, yet is rumored that he/she never said it at all?",
-      "correct_answer": "Marie Antoinette",
-      "incorrect_answers": ["Czar Nicholas II", "Elizabeth I", "Henry VIII"],
+      "question": "Which famous world leader is famed for the saying, Let them eat cake, yet is rumored that he/she never said it at all?",
       "1": "Elizabeth I",
       "2": "Czar Nicholas II",
       "3": "Marie Antoinette",
@@ -61,8 +57,6 @@
     {
       "category": "History",
       "question": "The collapse of the Soviet Union took place in which year?",
-      "correct_answer": "1991",
-      "incorrect_answers": ["1992", "1891", "1990"],
       "1": "1991",
       "2": "1992",
       "3": "1891",
@@ -116,9 +110,7 @@
     },
     {
       "category": "Art",
-      "question": "Which artist&rsquo;s studio was known as &#039;The Factory&#039;?",
-      "correct_answer": "Andy Warhol",
-      "incorrect_answers": ["Roy Lichtenstein", "David Hockney", "Peter Blake"],
+      "question": "Which artist's studio was known as The Factory?",
       "1": "Roy Lichtenstein",
       "2": "Andy Warhol",
       "3": "David Hockney",
@@ -155,8 +147,6 @@
     {
       "category": "Art",
       "question": "Which of these is not an additional variation of the color purple?",
-      "correct_answer": "Kobicha",
-      "incorrect_answers": ["Byzantium", "Pomp and Power", "Palatinate"],
       "1": "Pomp and Power",
       "2": "Byzantium",
       "3": "Kobicha",
@@ -175,8 +165,6 @@
     {
       "category": "Art",
       "question": "The painting 'The Starry Night' by Vincent van Gogh was part of which art movement?",
-      "correct_answer": "Post-Impressionism",
-      "incorrect_answers": ["Romanticism", "Neoclassical", "Impressionism"],
       "1": "Impressionism",
       "2": "Neoclassical",
       "3": "Romanticism",
@@ -305,7 +293,6 @@
     {
       "category": "English",
       "question": "Identify the correct sentence.",
-
       "1": "Dont worry, every little thing is going to be alright.",
       "2": "Don’t worry. Every little thing is going to be alright.",
       "3": "Don’t worry every little thing is going to be alright",
@@ -315,8 +302,6 @@
     {
       "category": "English",
       "question": "Identify the preposition in the following sentence: The kids are sitting around the block.",
-      "correct_answer": "Around",
-      "incorrect_answers": ["Are", "The", "Sitting"],
       "1": "Sitting",
       "2": "Around",
       "3": "Are",
