@@ -2,13 +2,16 @@ let availableQuestions = [];
 let currentQuestion = {};
 let choices = Array.from(document.getElementsByClassName("option-text"));
 let questionCounter = 0;
+let score = 0;
 let tips = document.getElementById('tip')
 
 const getCategory = (e) => {
     e.preventDefault();
     questionCounter = 0;
+    score = 0;
     displayQuestion(e.target.textContent);
 };
+const scoreText = document.getElementById("score-text");
 const counterText = document.getElementById("counter-text");
 const quiz = document.getElementsByClassName("buttonCategory");
 let questionArea = document.getElementById("question-area");
@@ -32,6 +35,7 @@ const nextQuestion = () => {
     tips.classList.add("hidden");
     questionCounter++;
     counterText.innerText = `${questionCounter}/10`;
+    scoreText.innerText = `Score: ${score}/10`;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
@@ -52,12 +56,14 @@ choices.forEach((choice) => {
             selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
         if (classToApply === "incorrect") {
             tips.classList.remove("hidden");
+        } else if (classToApply === "correct") {
+            score++;
         }
         selectedChoice.parentElement.classList.add(classToApply);
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             nextQuestion();
-        }, 5000);
+        }, 1000);
     });
 });
 
