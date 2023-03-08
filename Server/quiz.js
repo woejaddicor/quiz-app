@@ -2,6 +2,7 @@ let availableQuestions = [];
 let currentQuestion = {};
 let choices = Array.from(document.getElementsByClassName("option-text"));
 let questionCounter = 0;
+
 let score = 0;
 let tips = document.getElementById('tip')
 
@@ -18,13 +19,13 @@ let questionArea = document.getElementById("question-area");
 const question = document.getElementById("question");
 
 async function displayQuestion(category) {
-    const response = await fetch(`http://localhost:3000/questions/${category}`);
-    const cat = await response.json();
-    // console.log(cat);
-    questionArea.classList.remove("hidden");
-    let questions = cat;
-    availableQuestions = [...questions];
-    nextQuestion();
+  const response = await fetch(`http://localhost:3000/questions/${category}`);
+  const cat = await response.json();
+  // console.log(cat);
+  questionArea.classList.remove("hidden");
+  let questions = cat;
+  availableQuestions = [...questions];
+  nextQuestion();
 }
 
 const nextQuestion = () => {
@@ -65,17 +66,18 @@ choices.forEach((choice) => {
             nextQuestion();
         }, 1000);
     });
+
 });
 
 const categoryButton = document.getElementsByClassName("btn");
 for (let i = 0; i < categoryButton.length; i++) {
-    categoryButton[i].addEventListener("click", getCategory);
+  categoryButton[i].addEventListener("click", getCategory);
 }
 
 // const startButton = document.getElementById("start-button");
 // startButton.addEventListener("click", displayQuestion);
 
-module.exports = {
-    displayQuestion,
-    getCategory
-}
+// module.exports = {
+//     displayQuestion,
+//     getCategory
+// }
