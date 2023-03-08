@@ -1,2 +1,2 @@
-const questions = require('./questions.json');
+const questions = require("./questions.json");
 module.exports = questions;
