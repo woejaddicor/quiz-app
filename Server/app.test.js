@@ -19,7 +19,7 @@ describe('GET /questions', () => {
 
 describe('GET /questions/:category', () => {
     it('should return a 200 response', async() => {
-        const response = await request(app).get('/questions/invalid');
+        const response = await request(app).get('/questions/english');
         expect(response.statusCode).toBe(200);
     });
 });
