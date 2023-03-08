@@ -68,10 +68,8 @@ choices.forEach((choice) => {
 	});
 });
 
-const saveTipToLocalStorage = (tips, category) => {
-	console.log(tips, category);
+const saveTipToLocalStorage = (tips) => {
 	let newTip = {
-		category: category,
 		tip: tips,
 	};
 	tipsArray.push(newTip);
