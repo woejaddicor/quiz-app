@@ -4,6 +4,8 @@
 
 Revizd is an educational quiz app that allows users to test their knowledge of a variety of subjects. The app is built using HTML, CSS and JavaScript. The app is fully responsive and works on all devices. The app is hosted on Render and can be accessed [here] (link to be added). The app uses our own API to store the questions and answers. The site works by using a fetch request to the API and then using the data to populate the questions and answers on the page. The app also uses local storage to store the user's score and save revision tips. The app is fully responsive and works on all devices.
 
+Deployed site: [Revizd](https://woejaddicor.github.io/quiz-app/)
+
 ## App Design and Development
 
 ### User Stories
@@ -55,7 +57,7 @@ The revision tips page is where the user will be able to see all the revision ti
 * Revision tips can be manually deleted by the user.
 * A badge system to reward users for achieving different feats across the quiz such as streaks and 100% scores.
 
-## Local Installation
+## Local Server Installation
 
 The application requires the use of node and npm. To install the application locally, clone the repository and run the following commands:
 
@@ -64,13 +66,13 @@ The application requires the use of node and npm. To install the application loc
 
 A .env file should then be created where the user should specify the port number. For the sake of local installation, the port number should be set to 3000.
 
+The user will then have to change the fetch request link in quiz.js to the following: `http://localhost:3000/questions`
+
 Then use the following command to start the local server:
 
 * npm start
 
-The application will then be available on `localhost:3000`.
-
-By now opening the `index.html` file in the browser, the application should be available.
+By now opening the `index.html` file in the browser, the application should work as intended.
 
 
 ## Credits

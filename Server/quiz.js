@@ -19,7 +19,7 @@ let questionArea = document.getElementById("question-area");
 const question = document.getElementById("question");
 
 async function displayQuestion(category) {
-    const response = await fetch(`http://localhost:3000/questions/${category}`);
+    const response = await fetch(`https://quiz-app-backend-7ihe.onrender.com/questions/${category}`);
     const cat = await response.json();
     // console.log(cat);
     questionArea.classList.remove('hidden');
@@ -92,8 +92,7 @@ for (let i = 0; i < categoryButton.length; i++) {
 // startButton.addEventListener("click", displayQuestion);
 
 module.exports = {
-  displayQuestion,
-  getCategory,
-  saveTipToLocalStorage,
+    displayQuestion,
+    getCategory,
+    saveTipToLocalStorage,
 };
-
