@@ -2,52 +2,59 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revizd</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="icon" href="assets/css/image.png" type="image/png" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Genos:wght@300;400;600&display=swap" rel="stylesheet" />
+
 </head>
 
 <body>
     <header>
-        <div>
-            <nav>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+        <nav>
+            <div id="nav-style">
+                <a class="nav-link active" href="index.html">
+                    <img class="logo" src="./assets/css/image.png" alt="logo">
+                </a>
+                <ul class="nav">
+                    <li class="nav-item mt-3 text-right">
+                        <a class="nav-link active" href="categories.html">Quiz</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Revision</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Badges</a>
+                    <li class="nav-item mt-3 text-right">
+                        <a class="nav-link" href="revision.html">Revision</a>
                     </li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
     <section id="welcome" class="content">
         <div id="welcome-content" class="text-center">
-            <h1>Welcome to the Quiz</h1>
-            <form action="#">
+            <h1>Welcome to Revizd</h1>
+            <form action="/categories.html">
                 <button class="btn-block">Play Now</button>
             </form>
         </div>
     </section>
     <section id="home-content" class="content">
         <div id="description" class="text-center">
-            <h2>About</h2>
-            <p>Here is a description about what the site is and who it is for.</p>
+            <img id="rlogo" src="/assets/css/longlogo.png" alt="Revizd Logo">
+            <p>Revizd is an educational quiz app that allows users to test their knowledge of a variety of subjects. </p>
         </div>
         <div id="quote" class="text-center">
             <h2>Quote</h2>
-            <p>Here is a quote about the site.</p>
+            <p><span style="font-style: italic;">”The whole purpose of education is to turn mirrors into windows”</span> – Sydney J. Harris</p>
         </div>
     </section>
     <footer class="text-center">
-        <p><strong>This site was created for educational purposes only</strong> </p>
+        <p>
+            <strong>This site was created for educational purposes only</strong>
+        </p>
     </footer>
 </body>
 
