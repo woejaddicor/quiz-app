@@ -156,14 +156,6 @@ a.buttonCategory:hover {
   font-size: 1.5rem;
 }
 
-/* #score-text {
-  margin-left: 43%;
-}
-
-#counter-text {
-  margin-right: 38%;
-} */
-
 #question {
   display: flex;
   font-size: 2rem;
@@ -270,30 +262,31 @@ footer {
   padding: 2rem;
 }
 
-#revisions {
+.revision-content {
   background-color: #9bcd95;
-  color: #648de5;
+  color: #072c7c;
   font-size: 1rem;
-}
-
-.revision {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 10px;
-  margin: 10px;
-  color: #eecccc;
-  background-color: #10487d;
-  width: 20%;
-}
-
-.revision img {
-  width: 25%;
-  flex-shrink: 0;
-  background-color: #d1d1d1;
 }
 
 .hidden {
   display: none;
+}
+
+.revisionList {
+  list-style: none;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.li-revision {
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  font-size: 1.2rem;
+}
+
+.revision-title {
+  padding: 1.5rem;
+  margin-left: 10%;
 }
