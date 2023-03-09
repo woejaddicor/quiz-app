@@ -138,8 +138,8 @@ a.buttonCategory:hover {
   display: flex;
   font-size: 2rem;
   color: #eecccc;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 12px;
+  width: 90%;
   text-align: center;
 }
 
@@ -152,6 +152,8 @@ a.buttonCategory:hover {
 .answer {
   display: flex;
   font-size: 2rem;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .answer:hover {
@@ -168,24 +170,28 @@ a.buttonCategory:hover {
   background-color: #9bcd95;
   border-radius: 50%;
   margin-right: 10px;
+  align-self: center;
 }
 
 .letterB {
   background-color: #648de5;
   border-radius: 50%;
   margin-right: 10px;
+  align-self: center;
 }
 
 .letterC {
   background-color: #eecccc;
   border-radius: 50%;
   margin-right: 10px;
+  align-self: center;
 }
 
 .letterD {
   background-color: #6ad5cb;
   border-radius: 50%;
   margin-right: 10px;
+  align-self: center;
 }
 
 .option-text {
