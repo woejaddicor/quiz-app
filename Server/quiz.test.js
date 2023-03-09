@@ -2,22 +2,30 @@
  * @jest-environment jsdom
  */
 
-const fetch = require('node-fetch');
-const quiz = require('./quiz')
+// const fetch = require('node-fetch');
+const quiz = require("./quiz");
 
 test("Check get category is a function", () => {
-    console.log(quiz.getCategory);
-    expect(quiz.getCategory).toBeInstanceOf(Function);
+  console.log(quiz.getCategory);
+  expect(quiz.getCategory).toBeInstanceOf(Function);
 });
 
 test("Check display question is a function", () => {
-    console.log(quiz.displayQuestion);
-    expect(quiz.displayQuestion).toBeInstanceOf(Function);
+  console.log(quiz.displayQuestion);
+  expect(quiz.displayQuestion).toBeInstanceOf(Function);
 });
 
-test("Check get category works as expected", async() => {
-    const response = await fetch(`http://localhost:3000/questions/english`);
-    const cat = await response.json();
-    console.log(cat[0]);
-    expect(cat).toBeInstanceOf(Array);
+test("Check get category works as expected", async () => {
+  const response = await fetch(`http://localhost:3000/questions/english`);
+  const cat = await response.json();
+  console.log(cat[0]);
+  expect(cat).toBeInstanceOf(Array);
+});
+
+test("Check saveTipToLocalStorage is a function", () => {
+  expect(quiz.saveTipToLocalStorage).toBeInstanceOf(Function);
+});
+
+test("The saveTipToLocalStorage contains an Array", () => {
+  expect(quiz.saveTipToLocalStorage).toBe(Array);
 });

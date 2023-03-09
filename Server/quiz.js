@@ -1,10 +1,10 @@
 let availableQuestions = [];
 let currentQuestion = {};
-let choices = Array.from(document.getElementsByClassName('option-text'));
+let choices = Array.from(document.getElementsByClassName("option-text"));
 let questionCounter = 0;
-const tipsArray = JSON.parse(localStorage.getItem('tipsArray')) || [];
+const tipsArray = JSON.parse(localStorage.getItem("tipsArray")) || [];
 let score = 0;
-let tips = document.getElementById('tip');
+let tips = document.getElementById("tip");
 
 const getCategory = (e) => {
     e.preventDefault();
@@ -12,11 +12,11 @@ const getCategory = (e) => {
     score = 0;
     displayQuestion(e.target.textContent);
 };
-const scoreText = document.getElementById('score-text');
-const counterText = document.getElementById('counter-text');
-const quiz = document.getElementsByClassName('buttonCategory');
-let questionArea = document.getElementById('question-area');
-const question = document.getElementById('question');
+const scoreText = document.getElementById("score-text");
+const counterText = document.getElementById("counter-text");
+const quiz = document.getElementsByClassName("buttonCategory");
+let questionArea = document.getElementById("question-area");
+const question = document.getElementById("question");
 
 async function displayQuestion(category) {
     const response = await fetch(`http://localhost:3000/questions/${category}`);
@@ -82,15 +82,18 @@ const saveTipToLocalStorage = (tips) => {
     localStorage.setItem('tipsArray', JSON.stringify(tipsArray));
 };
 
-const categoryButton = document.getElementsByClassName('btn');
+const categoryButton = document.getElementsByClassName("btn");
 for (let i = 0; i < categoryButton.length; i++) {
+
     categoryButton[i].addEventListener('click', getCategory);
 }
 
 // const startButton = document.getElementById("start-button");
 // startButton.addEventListener("click", displayQuestion);
 
-// module.exports = {
-//     displayQuestion,
-//     getCategory
-// }
+module.exports = {
+  displayQuestion,
+  getCategory,
+  saveTipToLocalStorage,
+};
+
