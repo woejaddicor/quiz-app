@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Genos:wght@300;400;600&display=swap" rel="stylesheet" />
+    <script defer src="Server/end.js"></script>
 </head>
 
 <body>
@@ -19,38 +20,26 @@
             <nav>
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./revision.html">Revision</a>
+                        <a class="nav-link" href="revision.html">Revision</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section id="welcome" class="content">
-        <div id="welcome-content" class="text-center">
-            <h1>Welcome to the Quiz</h1>
-            <form action="/categories.html">
-                <button class="btn-block">Play Now</button>
-            </form>
+    <div class="score-container content">
+        <div id="end" class="flex">
+            <h2>Congrats on finishing!</h2>
+            <a href="categories.html" class="btn-info btn-lg">Play Again</a>
+            <span id="final-score"><span>
         </div>
-    </section>
-    <section id="home-content" class="content">
-        <div id="description" class="text-center">
-            <h2>About</h2>
-            <p>Here is a description about what the site is and who it is for.</p>
+        <div id="revision-check" class="text-center">
+            <p>Be sure to check out the revision page for more practice!</p>
+            <a href="revision.html" class="btn-info btn-lg">You can find it here!</a>
         </div>
-        <div id="quote" class="text-center">
-            <h2>Quote</h2>
-            <p>Here is a quote about the site.</p>
-        </div>
-    </section>
-    <footer class="text-center">
-        <p>
-            <strong>This site was created for educational purposes only</strong>
-        </p>
-    </footer>
+    </div>
 </body>
 
 </html>
