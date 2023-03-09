@@ -32,7 +32,7 @@ In the end we opted for the 3rd row of colours as we felt they were the most sui
 
 Home Page:
 
-![home page](/assets/screenshots/home.PNG)
+![home page](/assets/screenshots/home.png)
 
 The home page is the first page that the user will see when they open the app. The home page contains a brief description of the app and a button to start the quiz. The home page and every other page on the app makes use of a nav bar to navigate between the quiz and the revision tips. The nav bar also contains a link to the home page.
 

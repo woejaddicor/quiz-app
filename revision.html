@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz App</title>
+    <title>Revizd|Revision</title>
+    <link rel="icon" href="assets/css/image.png" type="image/png" sizes="16x16">
     <script src="./Server/revisionList.js" defer></script>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
@@ -13,7 +14,7 @@
         * {
             box-sizing: border-box;
         }
-
+        
         @media (min-width: 760px) {
             .parent {
                 display: flex;
@@ -26,21 +27,21 @@
     <header>
         <div>
             <nav>
-          <ul class="nav justify-content-between">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">
-                <img class="logo"src="./assets/css/image.png" alt="logo">
-              </a>
-            </li>
-            <li class="nav-item mt-3">
-              <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item mt-3">
-              <a class="nav-link" href="revision.html">Revision</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+                <div id="nav-style">
+                    <a class="nav-link active" href="index.html">
+                        <img class="logo" src="./assets/css/image.png" alt="logo">
+                    </a>
+                    <ul class="nav">
+                        <li class="nav-item mt-3 text-right">
+                            <a class="nav-link active" href="categories.html">Quiz</a>
+                        </li>
+                        <li class="nav-item mt-3 text-right">
+                            <a class="nav-link" href="revision.html">Revision</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
         </div>
     </header>
     <section class="header-revision">
