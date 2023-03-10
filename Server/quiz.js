@@ -5,6 +5,7 @@ let questionCounter = 0;
 const tipsArray = JSON.parse(localStorage.getItem("tipsArray")) || [];
 let score = 0;
 let tips = document.getElementById("tip");
+let oneAnswerOnly = false;
 
 const getCategory = (e) => {
     e.preventDefault();
@@ -46,10 +47,13 @@ const nextQuestion = () => {
         choice.innerText = currentQuestion[number];
     });
     availableQuestions.splice(questionIndex, 1);
+    oneAnswerOnly = true;
 };
 
 choices.forEach((choice) => {
     choice.addEventListener('click', (e) => {
+        if (!oneAnswerOnly) return;
+        oneAnswerOnly = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
         const classToApply =
