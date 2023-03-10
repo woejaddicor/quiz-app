@@ -57,6 +57,12 @@ The revision tips page is where the user will be able to see all the revision ti
 * Revision tips can be manually deleted by the user.
 * A badge system to reward users for achieving different feats across the quiz such as streaks and 100% scores.
 
+## Bugs and Conflicts
+
+During the creation of the project there was many errors and blockers that we had to tackle to get everything completed on time. One of the early issues was the structure of our JSON file had to be remade to accomadate for selecting the answers in the quiz and ensuring we could assign the correct answer to a numeric value. This was time consuming but necessary for the way we developed the quiz. Many blocks of our javascript took longer than would have hoped to complete, especially on the quiz.js file. Creating the function to display a question and move on to the next in the array was a difficult challenge and took all of us working together to figure out how best to tackle the issue.
+
+External to the code we had to understand and figure out the best practices to use Github and ensuring that we had our seperate branches that would merge together into the staging branch. This was to avoid pushing errors and buggy builds to the main branch. This was very useful for version control but we did run into some merge conflicts on certain pushes and would have to take the time together to review the changes.
+
 ## Local Server Installation
 
 The application requires the use of node and npm. To install the application locally, clone the repository and run the following commands:
